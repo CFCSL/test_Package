@@ -1,6 +1,4 @@
 from .Logo_Header import (logo, header)
 from .CFC_DataBase import *
-from .Response_Spectrum.Response_Spectrum import * #(EC8, AASHTO)
-
-
+from .helper_functions import *#(download_csv,download_sofistik,download_abaqus)
 

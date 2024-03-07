@@ -12,19 +12,25 @@ import numpy as np
 #print(sys.path)
 import importlib
 import streamlit as st
-
+import os
 import CFC
+#current_path= os.getcwd()
+
+current_file_path = os.path.abspath(__file__)
+current_directory = os.path.dirname(current_file_path)
+
+sys.path.append(current_directory)
+
+
+
 #importlib.reload(CFC)
 CFC.logo()
 
 CFC.header()
 
+st.write("Hello")
 
 
-r1=CFC.EC8(T=0.3, ag=2)
-
-print(r1)
-st.write(f"The value of $S_e$ is:  {round(r1[0],3)}" )
 
 
 

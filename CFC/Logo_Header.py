@@ -52,7 +52,7 @@ def header():
 	
 	logo_path = "https://raw.githubusercontent.com/CFCSL/Images-in-Public/main/figures/CFC_LOGO_20220510_Negro_jpeg.jpg"
 	#logo_path="figures/CFC_LOGO_20220510_Negro_jpeg.jpg"
-	#logo_path="images/CFC.jpeg"
+	#logo_path="CFC_logo.jpg"
 	#logo_path="https://th.bing.com/th/id/R.5af1241a180b419a120e6089a176dd26?rik=80zHQz3o8407%2fw&riu=http%3a%2f%2fwww.whateats.com%2fwp-content%2fuploads%2f2010%2f03%2fLion-Robek.jpg&ehk=OXvb%2bIMMKEQzMaW8q9t1h75jld8y3INqu0TR43hTqtw%3d&risl=&pid=ImgRaw&r=0"
 	# Display the image from the URL with a specified width
 	
