@@ -30,6 +30,12 @@ CFC.header()
 
 st.write("Hello")
 
+df=CFC.read_excel("Parameters.xlsx")
+
+print(df)
+
+
+
 
 
 
