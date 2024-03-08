@@ -13,7 +13,7 @@ import numpy as np
 import importlib
 import streamlit as st
 import os
-import CFC
+import CFC_common as CFC
 #current_path= os.getcwd()
 
 current_file_path = os.path.abspath(__file__)
