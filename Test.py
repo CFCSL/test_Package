@@ -22,7 +22,6 @@ current_directory = os.path.dirname(current_file_path)
 sys.path.append(current_directory)
 
 
-
 #importlib.reload(CFC)
 CFC.logo()
 
